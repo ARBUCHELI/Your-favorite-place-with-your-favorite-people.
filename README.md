@@ -1,7 +1,7 @@
 # Your-favorite-place-with-your-favorite-people.
 <strong>Intel Edge AI Scholarship Project witih OpenVino</strong>
 
-INTRODUCTION
+<strong>INTRODUCTION</strong>
 
 The project was conceived with the safety of people in mind, so that public establishments such as cafes, bars and high quality restaurants can offer a value-added service, allowing people to know who is in the establishment at any given time.
 
@@ -25,7 +25,7 @@ The application would also make it possible to avoid meeting unpleasant or confl
 
 Someone could say that the application could also be used to locate someone and hurt them, but these situations will be avoided, assuming that people who have dangerous enemies or compromising situations in their lives, will certainly avoid meeting in public places.
 
-EXPLANATION OF THE PROJECT
+<strong>EXPLANATION OF THE PROJECT</strong>
 
 Every time a person wants to go to their favorite public place (bar, restaurant, café), they can access a mobile application (Android, IOS), which will allow them to obtain demographic information about the place (number of people in the place at a given time, age range of the people and even let them know if a certain person is in the establishment).
 
@@ -35,16 +35,16 @@ The moment someone makes a request to the application, the edge cameras will per
 
 The two types of outputs of the application will be :
 
-OUTPUT 1:
+<strong>OUTPUT 1:</strong>
 - Number of people at a given time.
 - Number of female persons.
 - Number of male persons.
 - Age range of the people in the place in a determined moment.
 
-OUTPUT 2:
+<strong>OUTPUT 2:</strong>
 - Determine whether a person is in the public establishment or not.
 
-PRETRAINED MODELS USED TO BUILD THE APP:
+<strong>PRETRAINED MODELS USED TO BUILD THE APP:</strong>
 
 1) High Angle Detection 
 https://docs.openvinotoolkit.org/latest/_models_intel_person_detection_retail_0013_description_person_detection_retail_0013.html
@@ -58,33 +58,33 @@ https://docs.openvinotoolkit.org/latest/_models_intel_face_detection_retail_0004
 4) Face Reindentification
 https://docs.openvinotoolkit.org/latest/_models_intel_face_reidentification_retail_0095_description_face_reidentification_retail_0095.html
 
-THE ARTIFICIAL INTELLIGENCE TASKS THAT THE APPLICATION WILL HAVE TO PERFORM WILL BE: 
+<strong>THE ARTIFICIAL INTELLIGENCE TASKS THAT THE APPLICATION WILL HAVE TO PERFORM WILL BE:</strong>
 - Detection.
 - Classification.
 - Segmentation.
 
-COMMAND LINE PARAMETERS:
+<strong>COMMAND LINE PARAMETERS:</strong>
 1) model -xml (Used to specify the model)
 2) model -bin (Used to specify the model)
 3) target -device (Used to specify if the user is going to use the web or the mobile version of the app)
 4) input - type (To specify the type of image that the program is going to accept)
 5) input (Path to the input)
 
-GETTING STARTED:
+<strong>GETTING STARTED:</strong>
 
 1) The user (the public establishment) will have to clone the repository with the code (Not still in the repository).
 2) The user (the public establishment) will have to install OpenVino in a machine with capacity to support it.
 3) The final user (the customer) will have to install the app on his/her phone.
 
-PREREQUISITES:
+<strong>PREREQUISITES:</strong>
 
 1) OpenVINO
 2) Python 3
 3) Microsoft Visual Studio
 
-INSTALLING OF OPENVINO:
+<strong>INSTALLING OF OPENVINO:</strong>
 
 https://github.com/opencv/dldt
 
-PROJECT WORKING IMAGES:
+<strong>PROJECT WORKING IMAGES:</strong>
 
