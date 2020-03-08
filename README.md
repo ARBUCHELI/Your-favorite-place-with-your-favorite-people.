@@ -24,3 +24,67 @@ In this way, young adolescents could inform their parents about their location, 
 The application would also make it possible to avoid meeting unpleasant or conflicting people.
 
 Someone could say that the application could also be used to locate someone and hurt them, but these situations will be avoided, assuming that people who have dangerous enemies or compromising situations in their lives, will certainly avoid meeting in public places.
+
+EXPLANATION OF THE PROJECT
+
+Every time a person wants to go to their favorite public place (bar, restaurant, café), they can access a mobile application (Android, IOS), which will allow them to obtain demographic information about the place (number of people in the place at a given time, age range of the people and even let them know if a certain person is in the establishment).
+
+All the information will be send to a cloud database and the application will retrieve the information at the time the customer decides to authenticate (This will prevent misuse of the application).
+
+The moment someone makes a request to the application, the edge cameras will perform inference and send the result to a cloud database and from the database to the application.
+
+The two types of outputs of the application will be :
+
+OUTPUT 1:
+- Number of people at a given time.
+- Number of female persons.
+- Number of male persons.
+- Age range of the people in the place in a determined moment.
+
+OUTPUT 2:
+- Determine whether a person is in the public establishment or not.
+
+PRETRAINED MODELS USED TO BUILD THE APP:
+
+1) High Angle Detection 
+https://docs.openvinotoolkit.org/latest/_models_intel_person_detection_retail_0013_description_person_detection_retail_0013.html
+
+2) Age & Gender Recognition
+http://docs.openvinotoolkit.org/latest/_models_intel_age_gender_recognition_retail_0013_description_age_gender_recognition_retail_0013.html
+
+3) Face detection enhanced model
+https://docs.openvinotoolkit.org/latest/_models_intel_face_detection_retail_0004_description_face_detection_retail_0004.html
+
+4) Face Reindentification
+https://docs.openvinotoolkit.org/latest/_models_intel_face_reidentification_retail_0095_description_face_reidentification_retail_0095.html
+
+THE ARTIFICIAL INTELLIGENCE TASKS THAT THE APPLICATION WILL HAVE TO PERFORM WILL BE: 
+- Detection.
+- Classification.
+- Segmentation.
+
+COMMAND LINE PARAMETERS:
+1) model -xml (Used to specify the model)
+2) model -bin (Used to specify the model)
+3) target -device (Used to specify if the user is going to use the web or the mobile version of the app)
+4) input - type (To specify the type of image that the program is going to accept)
+5) input (Path to the input)
+
+GETTING STARTED:
+
+1) The user (the public establishment) will have to clone the repository with the code (Not still in the repository).
+2) The user (the public establishment) will have to install OpenVino in a machine with capacity to support it.
+3) The final user (the customer) will have to install the app on his/her phone.
+
+PREREQUISITES:
+
+1) OpenVINO
+2) Python 3
+3) Microsoft Visual Studio
+
+INSTALLING OF OPENVINO:
+
+https://github.com/opencv/dldt
+
+PROJECT WORKING IMAGES:
+
