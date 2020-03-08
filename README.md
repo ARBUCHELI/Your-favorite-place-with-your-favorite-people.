@@ -88,3 +88,4 @@ https://github.com/opencv/dldt
 
 <strong>PROJECT WORKING IMAGES:</strong>
 
+<img src="C:\Users\radio\Desktop\ANDRÉS R. BUCHELI - SOFTWARE ENGINEER\UDACITY INTEL SCHOLARSHIP\PROJECT" alt="Italian">
