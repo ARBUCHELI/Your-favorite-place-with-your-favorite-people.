@@ -86,6 +86,6 @@ https://docs.openvinotoolkit.org/latest/_models_intel_face_reidentification_reta
 
 https://github.com/opencv/dldt
 
-<strong>PROJECT WORKING IMAGES:</strong>
+
 
 
