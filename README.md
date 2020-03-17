@@ -1,5 +1,5 @@
 # Your-favorite-place-with-your-favorite-people.
-<strong>Intel Edge AI Scholarship Project witih OpenVino</strong>
+<strong>Intel Edge AI Scholarship Project with OpenVino</strong>
 
 <strong>INTRODUCTION</strong>
 
